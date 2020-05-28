@@ -6,10 +6,13 @@ import { useNavigation } from "@react-navigation/native";
 import * as actions from "../../actions/index";
 
 function Login(props) {
+
+    const navigation = useNavigation()
+
     React.useEffect(()=> {
         props.facebookLogin()
-        // console.log(props)
-    }, [])
+        if(props.token) navigation.navigate('Map')
+    }, [props])
 
     return(
         <View style={{justifyContent: 'center', flex: 1}}>
