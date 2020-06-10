@@ -1,0 +1,125 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4373045,
+        "longitude": -39.1439613
+      }
+    },
+    {
+      "id": 2,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4349062,
+        "longitude": -39.1473423
+      }
+    },
+    {
+      "id": 3,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4322244,
+        "longitude": -39.1448895
+      }
+    },
+    {
+      "id": 4,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4293688,
+        "longitude": -39.147723
+      }
+    },
+    {
+      "id": 5,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4362083,
+        "longitude": -39.1485348
+      }
+    },
+    {
+      "id": 6,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4370334,
+        "longitude": -39.1459352
+      }
+    },
+    {
+      "id": 7,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4373646,
+        "longitude": -39.1440154
+      }
+    },
+    {
+      "id": 8,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4353885,
+        "longitude": -39.1437054
+      }
+    },
+    {
+      "id": 9,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4331387,
+        "longitude": -39.1456948
+      }
+    },
+    {
+      "id": 10,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4343385,
+        "longitude": -39.149926
+      }
+    },
+    {
+      "id": 11,
+      "company": "company",
+      "job": "a job",
+      "relativeTime": "days ago",
+      "snipet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "location": {
+        "latitude": -3.4357065,
+        "longitude": -39.1492788
+      }
+    }
+  ]
+}
