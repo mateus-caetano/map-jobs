@@ -16,8 +16,16 @@ const Bottom = createMaterialBottomTabNavigator();
 
 const MapScreen = () => (
   <Bottom.Navigator>
-    <Bottom.Screen name="MapJobs" component={Map} />
-    <Bottom.Screen name="Jobs" component={Jobs} />
+    <Bottom.Screen
+      name="MapJobs"
+      component={Map}
+      options={{ tabBarIcon: 'map' }}
+    />
+    <Bottom.Screen
+      name="Jobs"
+      component={Jobs}
+      options={{ tabBarIcon: 'briefcase' }}
+    />
   </Bottom.Navigator>
 );
 

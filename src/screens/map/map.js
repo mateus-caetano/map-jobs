@@ -43,7 +43,7 @@ function Map(props) {
     loadLocation();
   }, []);
 
-  // if (region.latitude === 0) return <View />;
+  if (region.latitude === 0) return <View />;
 
   return (
     <View style={{ flex: 1 }}>
