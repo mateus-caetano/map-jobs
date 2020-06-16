@@ -10,6 +10,7 @@ import Welcome from './src/screens/welcome/welcome';
 import Login from './src/screens/login/login';
 import Map from './src/screens/map/map';
 import Jobs from './src/screens/jobs/index';
+import LikedJobs from './src/screens/likedJobs';
 
 const Stack = createStackNavigator();
 const Bottom = createMaterialBottomTabNavigator();
@@ -21,10 +22,17 @@ const MapScreen = () => (
       component={Map}
       options={{ tabBarIcon: 'map' }}
     />
+
     <Bottom.Screen
       name="Jobs"
       component={Jobs}
       options={{ tabBarIcon: 'briefcase' }}
+    />
+
+    <Bottom.Screen
+      name="LikedJobs"
+      component={LikedJobs}
+      options={{ tabBarIcon: 'heart' }}
     />
   </Bottom.Navigator>
 );

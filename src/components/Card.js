@@ -1,25 +1,12 @@
 import React from 'react';
-import {
-  View,
-  Animated,
-  PanResponder,
-  UIManager,
-  LayoutAnimation,
-  Easing,
-  Platform,
-  Dimensions,
-} from 'react-native';
+import { View, Animated, PanResponder, Easing, Dimensions } from 'react-native';
 import { Card, Title, Text } from 'react-native-paper';
 import MapView, { Marker } from 'react-native-maps';
+import { connect } from 'react-redux';
+
+import * as actions from '../actions/index';
 
 const height = Dimensions.get('window').height;
-
-if (
-  Platform.OS === 'android' &&
-  UIManager.setLayoutAnimationEnabledExperimental
-) {
-  UIManager.setLayoutAnimationEnabledExperimental(true);
-}
 
 const RenderCard = ({ job, index }) => {
   const [limit, setLimit] = React.useState(false);
@@ -39,7 +26,10 @@ const RenderCard = ({ job, index }) => {
           toValue: height,
           duration: 500,
           easing: Easing.quad,
-        }).start(() => setLimit(true));
+        }).start(() => {
+          actions.likeJob(job);
+        });
+        setLimit(true);
       } else {
         Animated.timing(bottom, {
           toValue: 0,
@@ -98,4 +88,4 @@ const RenderCard = ({ job, index }) => {
   );
 };
 
-export default RenderCard;
+export default connect(null, actions)(RenderCard);
